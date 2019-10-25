@@ -10,16 +10,16 @@ To compile the simulator:
 
     
 ### RUN INFO ### 
-To run the simulator:
+To run the simulator:  
     1. Specify the path to "zlib" package in ./simscript/env_zlib.sh. Then "source simscript/env_zlib.sh".  
     2. Specify the path to the folder containing the "simscript"  in runall.pl "trace_dir" variable.  
     3. Set symbolic links to GAP_traces and WL_traces in "input".  
     4. Run the simulator using runall.pl with the commands shown in run_MICRO_5bn.sh, using the appropriate flags for workload and configuration parameters.  
 
 ### TRACES INFO ###
--- The simulator takes in memory access traces for workloads.  
--- A couple of sample traces are available at : https://www.dropbox.com/sh/98veamv5l6ht21r/AACVlNY4C-mhnUWmiUYZ_9Yta?dl=0  
--- For more traces, please drop me a email at gururaj.s@gatech.edu.  
+- The simulator takes in memory access traces for workloads.  
+- A couple of sample traces are available at : https://www.dropbox.com/sh/98veamv5l6ht21r/AACVlNY4C-mhnUWmiUYZ_9Yta?dl=0  
+- For more traces, please drop me a email at gururaj.s@gatech.edu.  
 
 ### OTHER INFO ###   
 The folders in this repo:  
