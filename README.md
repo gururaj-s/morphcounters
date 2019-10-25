@@ -1,11 +1,11 @@
 ### GENERAL INFO ####
-This simulator was used for Morphable Counters paper in MICRO-2018 (https://ieeexplore.ieee.org/abstract/document/8574558).   This is a fork of USIMM (https://github.com/pranith/usimm)  
+This simulator was used for Morphable Counters paper in MICRO-2018 (https://ieeexplore.ieee.org/abstract/document/8574558).  \ This is a fork of USIMM (https://github.com/pranith/usimm)  \
 
 ### COMPILATION INFO ### 
-To compile the simulator:
-    1. Specify the path to your "zlib" package in ./simscript/env_zlib.sh. Then "source simscript/env_zlib.sh".
-    2. Inside ./src_turbo, and type "make".
-    3. This should create the executable inside ./bin/
+To compile the simulator: \
+    1. Specify the path to your "zlib" package in ./simscript/env_zlib.sh. Then "source simscript/env_zlib.sh". \
+    2. Inside ./src_turbo, and type "make". \
+    3. This should create the executable inside ./bin/ \
 
     
 ### RUN INFO ### 
