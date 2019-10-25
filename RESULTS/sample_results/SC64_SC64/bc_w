@@ -1,0 +1,868 @@
+--------------------------------------------
+-- USIMM: the Utah SImulated Memory Module --
+--              Version: 1.3               --
+---------------------------------------------
+Using ZLIB Version: 1.2.11
+Initializing.
+Core 0: Input trace file /home/gattaca4/gururaj/sc_exp/MORPHCTR_REPO_2019/morphctr_code/input/GAP_traces/bc_2_0.raw.usim.gz : Addresses will have prefix 0
+Core 1: Input trace file /home/gattaca4/gururaj/sc_exp/MORPHCTR_REPO_2019/morphctr_code/input/GAP_traces/bc_2_0.raw.usim.gz : Addresses will have prefix 1
+Core 2: Input trace file /home/gattaca4/gururaj/sc_exp/MORPHCTR_REPO_2019/morphctr_code/input/GAP_traces/bc_2_0.raw.usim.gz : Addresses will have prefix 2
+Core 3: Input trace file /home/gattaca4/gururaj/sc_exp/MORPHCTR_REPO_2019/morphctr_code/input/GAP_traces/bc_2_0.raw.usim.gz : Addresses will have prefix 3
+Reading vi file: 4Gb_x8.vi	
+9 Chips per Rank
+Fragments: 1 of length 832
+----------------------------------------------------------------------------------------
+------------------------
+- SIMULATOR PARAMETERS -
+------------------------
+
+-------------
+- PROCESSOR -
+-------------
+PROCESSOR_CLK_MULTIPLIER:        4
+PROCESSOR_CLK_MULTIPLIER2:        0
+ROBSIZE:                       192
+MAX_FETCH:                       4
+MAX_RETIRE:                      4
+PIPELINEDEPTH:                  10
+
+---------------
+- DRAM Config -
+---------------
+NUM_CHANNELS:                    2
+NUM_RANKS:                       2
+NUM_BANKS:                       8
+NUM_ROWS:                    65536
+NUM_COLUMNS:                   128
+
+---------------
+- DRAM Timing -
+---------------
+T_RCD:                          44
+T_RP:                           44
+T_CAS:                          44
+T_RC:                          156
+T_RAS:                         112
+T_RRD:                          20
+T_FAW:                         128
+T_WR:                           48
+T_WTR:                          24
+T_RTP:                          24
+T_CCD:                          16
+T_RFC:                         832
+T_REFI:                      24960
+T_CWD:                          20
+T_RTRS:                          8
+T_PD_MIN:                       16
+T_XP:                           20
+T_XP_DLL:                       80
+T_DATA_TRANS:                   16
+
+---------------
+- DRAM Cache Config -
+---------------
+NUM_CHANNELS2:                    0
+NUM_RANKS2:                       0
+NUM_BANKS2:                       0
+NUM_ROWS2:                        0
+NUM_COLUMNS2:                     0
+
+---------------
+- DRAM Cache Timing -
+---------------
+T_RCD2:                           0
+T_RP2:                            0
+T_CAS2:                           0
+T_RC2:                            0
+T_RAS2:                           0
+T_RRD2:                           0
+T_FAW2:                           0
+T_WR2:                            0
+T_WTR2:                           0
+T_RTP2:                           0
+T_CCD2:                           0
+T_RFC2:                           0
+T_REFI2:                          0
+T_CWD2:                           0
+T_RTRS2:                          0
+T_PD_MIN2:                        0
+T_XP2:                            0
+T_XP_DLL2:                        0
+T_DATA_TRANS2:                    0
+
+---------------------------
+- DRAM Idd Specifications -
+---------------------------
+VDD:                        01.50
+IDD0:                       55.00
+IDD2P0:                     16.00
+IDD2P1:                     32.00
+IDD2N:                      28.00
+IDD3P:                      38.00
+IDD3N:                      38.00
+IDD4R:                      157.00
+IDD4W:                      128.00
+IDD5:                       155.00
+
+-------------------
+- DRAM Controller -
+-------------------
+WQ_CAPACITY:                    96
+ADDRESS_MAPPING:                 0
+WQ_LOOKUP_LATENCY:              10
+
+-------------------
+- DRAM Cache Controller -
+-------------------
+WQ_CAPACITY2:                     0
+ADDRESS_MAPPING2:                 0
+WQ_LOOKUP_LATENCY2:               0
+
+----------------------------------------------------------------------------------------
+Level 1 size with arity 64: 1024 B 
+Level 2 size with arity 64: 65536 B 
+Level 3 size with arity 64: 4194304 B 
+**MemOrg initialized with 4 levels
+Counter Design : 4 
+CTR SIZE : 1.000000 
+CTRS_PER_MTREE : 64 
+
+MTREE Level 3 Counter Design : 4 
+MTREE Level 3 Entry size : 1.000000 
+MTREE Level 3 Arity : 64 
+MTREE Level 2 Counter Design : 4 
+MTREE Level 2 Entry size : 1.000000 
+MTREE Level 2 Arity : 64 
+MTREE Level 1 Counter Design : 4 
+MTREE Level 1 Entry size : 1.000000 
+MTREE Level 1 Arity : 64 
+MTREE Level 0 Counter Design : 4 
+MTREE Level 0 Entry size : 1.000000 
+MTREE Level 0 Arity : 64 
+Memory Size is : 17179869184 
+CTR Store Size is : 268435456 
+MAC Store Size is : 2147483648 
+Num_Mtree_root is : 16 
+Num_Mtree_levels is : 4 
+
+Mtree Level 0 Size: 64 
+Mtree Level 1 Size: 1024 
+Mtree Level 2 Size: 65536 
+Mtree Level 3 Size: 4194304 
+Start Addr Counters: 14763950080 
+
+Start Addr Mtree Level 0: 14755561472 
+Start Addr Mtree Level 1: 14755561536 
+Start Addr Mtree Level 2: 14755562560 
+Start Addr Mtree Level 3: 14755628096 
+Start Addr Counters: 14763950080 
+ENCR CTR COMPRESSED: 0
+ENCR CTR OVERFLOW BITS: 5.977280
+ENCR CTR DESIGN: 4
+MTREE CTR 3 COMPRESSED: 0
+MTREE CTR 3 OVERFLOW BITS: 5.977280
+MTREE CTR 3 DESIGN: 4
+MTREE CTR 2 COMPRESSED: 0
+MTREE CTR 2 OVERFLOW BITS: 5.977280
+MTREE CTR 2 DESIGN: 4
+MTREE CTR 1 COMPRESSED: 0
+MTREE CTR 1 OVERFLOW BITS: 5.977280
+MTREE CTR 1 DESIGN: 4
+MTREE CTR 0 COMPRESSED: 0
+MTREE CTR 0 OVERFLOW BITS: 5.977280
+MTREE CTR 0 DESIGN: 4
+OS_VISBILE_MEMORY: 14072
+
+L3_Cache_Type	: 0
+L3_Cache_Size	: 8388608
+L3_Cache_Sets	: 16384
+L3_Cache_Assc	: 8
+L3_Cache_Repl	: 3
+
+L3_Cache_Met_Aware	: 0
+
+L3_Cache_Met_Install_Prioirity	: 1
+
+Meta_Cache_Size	: 131072
+Meta_Cache_Sets	: 256
+Meta_Cache_Assc	: 8
+Meta_Cache_Repl	: 0
+
+Meta_Cache_Met_Aware	: 0
+
+Meta_Cache_Met_Install_Prioirity	: 1
+
+MAC_Cache_Size	: 1024
+MAC_Cache_Sets	: 1
+MAC_Cache_Assc	: 16
+MAC_Cache_Repl	: 0
+
+MAC_Cache_Met_Aware	: 0
+
+MAC_Cache_Met_Install_Prioirity	: 1
+
+PART_SIZE	: 8
+Priority 	: 0
+
+SGX_MODE[0]	: 4 (COMMERCIAL_SGX with SYNERGY++)
+
+SGX_MODE[1]	: 4 (COMMERCIAL_SGX with SYNERGY++)
+
+SGX_MODE[2]	: 4 (COMMERCIAL_SGX with SYNERGY++)
+
+SGX_MODE[3]	: 4 (COMMERCIAL_SGX with SYNERGY++)
+
+MET_CACHE	: WRITEBACK
+
+MAC_CACHE	: WRITEBACK
+Initialized OS for 3602432 pages and 4 threads
+OS_PAGE_MAPPING: 0, Random 4 KB pages 
+** Starting simulation. **
+.................................................................................................... 0.99 Bn 
+.................................................................................................... 1.99 Bn 
+.................................................................................................... 2.99 Bn 
+.................................................................................................... 3.99 Bn 
+.................................................................................................... 4.99 Bn 
+.................................................................................................... 5.99 Bn 
+.................................................................................................... 6.99 Bn 
+.................................................................................................... 7.99 Bn 
+.................................................................................................... 8.99 Bn 
+.................................................................................................... 9.99 Bn 
+.................................................................................................... 10.99 Bn 
+.................................................................................................... 11.99 Bn 
+.................................................................................................... 12.99 Bn 
+.................................................................................................... 13.99 Bn 
+.................................................................................................... 14.99 Bn 
+.................................................................................................... 15.99 Bn 
+.................................................................................................... 16.99 Bn 
+.................................................................................................... 17.99 Bn 
+.................................................................................................... 18.99 Bn 
+.................................................................................................... 19.99 Bn 
+.................................................................................................... 20.99 Bn 
+.................................................................................................... 21.99 Bn 
+.................................................................................................... 22.99 Bn 
+.................................................................................................... 23.99 Bn 
+.................................................................................................... 24.99 Bn 
+
+ Core 0 reached end of its fast execution with 25.000 Bn inst committed 
+
+ Core 1 reached end of its fast execution with 25.000 Bn inst committed 
+
+ Core 2 reached end of its fast execution with 25.000 Bn inst committed 
+
+ Core 3 reached end of its fast execution with 25.000 Bn inst committed 
+.Fast Simulation Done for 100.000000 Bn instructions for 4 cores
+Starting Slow Simulation for 5000000000 instructions for 4 cores
+...................................................................................................	2600 M | C0 - 2.210039 ,INST 218 M | C1 - 2.207658 ,INST 218 M | C2 - 2.207643 ,INST 218 M | C3 - 2.207465 ,INST 218 M 
+....................................................................................................	2700 M | C0 - 1.954881 ,INST 389 M | C1 - 1.952786 ,INST 388 M | C2 - 1.952147 ,INST 388 M | C3 - 1.951972 ,INST 388 M 
+....................................................................................................	2800 M | C0 - 1.697449 ,INST 507 M | C1 - 1.694631 ,INST 506 M | C2 - 1.693407 ,INST 506 M | C3 - 1.693288 ,INST 506 M 
+....................................................................................................	2900 M | C0 - 1.581798 ,INST 631 M | C1 - 1.578209 ,INST 629 M | C2 - 1.576727 ,INST 629 M | C3 - 1.576370 ,INST 628 M 
+....................................................................................................	3000 M | C0 - 1.729733 ,INST 863 M | C1 - 1.726519 ,INST 861 M | C2 - 1.724918 ,INST 860 M | C3 - 1.724597 ,INST 860 M 
+....................................................................................................	3100 M | C0 - 1.652805 ,INST 990 M | C1 - 1.649394 ,INST 987 M | C2 - 1.647829 ,INST 987 M | C3 - 1.647393 ,INST 986 M 
+....................................................................................................	3200 M | C0 - 1.667878 ,INST 1165 M | C1 - 1.664524 ,INST 1163 M | C2 - 1.662960 ,INST 1162 M | C3 - 1.662586 ,INST 1162 M 
+....................................................................................................	3300 M | C0 - 1.751802 ,INST 1399 M | C1 - 1.748468 ,INST 1397 M | C2 - 1.746914 ,INST 1395 M | C3 - 1.746513 ,INST 1395 M 
+....................................................................................................	3400 M | C0 - 1.831546 ,INST 1646 M | C1 - 1.828570 ,INST 1643 M | C2 - 1.826978 ,INST 1642 M | C3 - 1.826526 ,INST 1642 M 
+....................................................................................................	3500 M | C0 - 1.808757 ,INST 1806 M | C1 - 1.806058 ,INST 1804 M | C2 - 1.804328 ,INST 1802 M | C3 - 1.803710 ,INST 1801 M 
+....................................................................................................	3600 M | C0 - 1.793761 ,INST 1971 M | C1 - 1.791030 ,INST 1968 M | C2 - 1.789234 ,INST 1966 M | C3 - 1.788459 ,INST 1965 M 
+....................................................................................................	3700 M | C0 - 1.811898 ,INST 2172 M | C1 - 1.809363 ,INST 2169 M | C2 - 1.807753 ,INST 2167 M | C3 - 1.806800 ,INST 2166 M 
+....................................................................................................	3800 M | C0 - 1.869354 ,INST 2428 M | C1 - 1.866921 ,INST 2425 M | C2 - 1.865278 ,INST 2422 M | C3 - 1.864369 ,INST 2421 M 
+....................................................................................................	3900 M | C0 - 1.891459 ,INST 2646 M | C1 - 1.889608 ,INST 2643 M | C2 - 1.888372 ,INST 2641 M | C3 - 1.887705 ,INST 2640 M 
+....................................................................................................	4000 M | C0 - 1.915863 ,INST 2871 M | C1 - 1.913439 ,INST 2868 M | C2 - 1.911852 ,INST 2865 M | C3 - 1.910877 ,INST 2864 M 
+....................................................................................................	4100 M | C0 - 1.897038 ,INST 3033 M | C1 - 1.894716 ,INST 3029 M | C2 - 1.893095 ,INST 3027 M | C3 - 1.892061 ,INST 3025 M 
+....................................................................................................	4200 M | C0 - 1.897435 ,INST 3223 M | C1 - 1.896210 ,INST 3221 M | C2 - 1.895276 ,INST 3220 M | C3 - 1.894597 ,INST 3218 M 
+....................................................................................................	4300 M | C0 - 1.799019 ,INST 3236 M | C1 - 1.797827 ,INST 3234 M | C2 - 1.796913 ,INST 3232 M | C3 - 1.796240 ,INST 3231 M 
+....................................................................................................	4400 M | C0 - 1.710975 ,INST 3249 M | C1 - 1.709804 ,INST 3246 M | C2 - 1.708912 ,INST 3245 M | C3 - 1.708250 ,INST 3243 M 
+....................................................................................................	4500 M | C0 - 1.631733 ,INST 3261 M | C1 - 1.630589 ,INST 3259 M | C2 - 1.629714 ,INST 3257 M | C3 - 1.629055 ,INST 3256 M 
+....................................................................................................	4600 M | C0 - 1.560045 ,INST 3274 M | C1 - 1.558924 ,INST 3272 M | C2 - 1.558056 ,INST 3270 M | C3 - 1.557409 ,INST 3269 M 
+....................................................................................................	4700 M | C0 - 1.494788 ,INST 3287 M | C1 - 1.493692 ,INST 3284 M | C2 - 1.492837 ,INST 3282 M | C3 - 1.492198 ,INST 3281 M 
+....................................................................................................	4800 M | C0 - 1.435199 ,INST 3299 M | C1 - 1.434123 ,INST 3297 M | C2 - 1.433282 ,INST 3295 M | C3 - 1.432644 ,INST 3293 M 
+....................................................................................................	4900 M | C0 - 1.380562 ,INST 3311 M | C1 - 1.379512 ,INST 3309 M | C2 - 1.378679 ,INST 3307 M | C3 - 1.378044 ,INST 3305 M 
+....................................................................................................	5000 M | C0 - 1.330364 ,INST 3324 M | C1 - 1.329327 ,INST 3321 M | C2 - 1.328506 ,INST 3319 M | C3 - 1.327874 ,INST 3318 M 
+....................................................................................................	5100 M | C0 - 1.284032 ,INST 3337 M | C1 - 1.283010 ,INST 3334 M | C2 - 1.282197 ,INST 3332 M | C3 - 1.281573 ,INST 3330 M 
+....................................................................................................	5200 M | C0 - 1.241154 ,INST 3349 M | C1 - 1.240142 ,INST 3347 M | C2 - 1.239339 ,INST 3344 M | C3 - 1.238718 ,INST 3343 M 
+....................................................................................................	5300 M | C0 - 1.201350 ,INST 3362 M | C1 - 1.200348 ,INST 3359 M | C2 - 1.199551 ,INST 3357 M | C3 - 1.198933 ,INST 3355 M 
+....................................................................................................	5400 M | C0 - 1.164266 ,INST 3375 M | C1 - 1.163275 ,INST 3372 M | C2 - 1.162487 ,INST 3370 M | C3 - 1.161877 ,INST 3368 M 
+....................................................................................................	5500 M | C0 - 1.129626 ,INST 3387 M | C1 - 1.128651 ,INST 3384 M | C2 - 1.127867 ,INST 3382 M | C3 - 1.127261 ,INST 3380 M 
+....................................................................................................	5600 M | C0 - 1.097227 ,INST 3400 M | C1 - 1.096262 ,INST 3397 M | C2 - 1.095483 ,INST 3394 M | C3 - 1.094879 ,INST 3393 M 
+....................................................................................................	5700 M | C0 - 1.066845 ,INST 3412 M | C1 - 1.065888 ,INST 3409 M | C2 - 1.065119 ,INST 3407 M | C3 - 1.064517 ,INST 3405 M 
+....................................................................................................	5800 M | C0 - 1.038302 ,INST 3425 M | C1 - 1.037355 ,INST 3422 M | C2 - 1.036598 ,INST 3419 M | C3 - 1.035998 ,INST 3417 M 
+....................................................................................................	5900 M | C0 - 1.011389 ,INST 3437 M | C1 - 1.010451 ,INST 3434 M | C2 - 1.009701 ,INST 3431 M | C3 - 1.009105 ,INST 3429 M 
+....................................................................................................	6000 M | C0 - 0.986003 ,INST 3450 M | C1 - 0.985076 ,INST 3446 M | C2 - 0.984333 ,INST 3444 M | C3 - 0.983740 ,INST 3442 M 
+....................................................................................................	6100 M | C0 - 0.962020 ,INST 3462 M | C1 - 0.961103 ,INST 3459 M | C2 - 0.960365 ,INST 3456 M | C3 - 0.959779 ,INST 3454 M 
+....................................................................................................	6200 M | C0 - 0.939378 ,INST 3474 M | C1 - 0.938469 ,INST 3471 M | C2 - 0.937739 ,INST 3468 M | C3 - 0.937157 ,INST 3466 M 
+....................................................................................................	6300 M | C0 - 0.919512 ,INST 3493 M | C1 - 0.918213 ,INST 3488 M | C2 - 0.917184 ,INST 3484 M | C3 - 0.916352 ,INST 3481 M 
+....................................................................................................	6400 M | C0 - 0.917048 ,INST 3575 M | C1 - 0.915651 ,INST 3570 M | C2 - 0.914575 ,INST 3565 M | C3 - 0.913617 ,INST 3562 M 
+....................................................................................................	6500 M | C0 - 0.927794 ,INST 3710 M | C1 - 0.926465 ,INST 3704 M | C2 - 0.925380 ,INST 3700 M | C3 - 0.924439 ,INST 3696 M 
+....................................................................................................	6600 M | C0 - 0.931891 ,INST 3819 M | C1 - 0.930606 ,INST 3814 M | C2 - 0.929532 ,INST 3810 M | C3 - 0.928630 ,INST 3806 M 
+....................................................................................................	6700 M | C0 - 0.947793 ,INST 3979 M | C1 - 0.946522 ,INST 3974 M | C2 - 0.945405 ,INST 3969 M | C3 - 0.944561 ,INST 3966 M 
+....................................................................................................	6800 M | C0 - 0.948074 ,INST 4075 M | C1 - 0.946576 ,INST 4069 M | C2 - 0.945271 ,INST 4063 M | C3 - 0.944227 ,INST 4059 M 
+....................................................................................................	6900 M | C0 - 0.976862 ,INST 4297 M | C1 - 0.975391 ,INST 4290 M | C2 - 0.974155 ,INST 4285 M | C3 - 0.973234 ,INST 4281 M 
+....................................................................................................	7000 M | C0 - 0.991991 ,INST 4462 M | C1 - 0.990499 ,INST 4456 M | C2 - 0.989327 ,INST 4450 M | C3 - 0.988477 ,INST 4447 M 
+....................................................................................................	7100 M | C0 - 0.996876 ,INST 4584 M | C1 - 0.995268 ,INST 4577 M | C2 - 0.993984 ,INST 4571 M | C3 - 0.993110 ,INST 4567 M 
+....................................................................................................	7200 M | C0 - 1.009380 ,INST 4743 M | C1 - 1.007785 ,INST 4735 M | C2 - 1.006503 ,INST 4729 M | C3 - 1.005577 ,INST 4725 M 
+....................................................................................................	7300 M | C0 - 1.031843 ,INST 4951 M | C1 - 1.030109 ,INST 4943 M | C2 - 1.028749 ,INST 4936 M | C3 - 1.027761 ,INST 4932 M 
+......................................Core 0 reached end of its execution with 5000000077 inst executed including warmup 
+.......Core 1 reached end of its execution with 5000000077 inst executed including warmup 
+......Core 2 reached end of its execution with 5000000077 inst executed including warmup 
+....Core 3 reached end of its execution with 5000000077 inst executed including warmup 
+Done with loop. Printing stats.
+Cycles 4854273408
+Printing Stats for 4999999999 instructions per thread
+Core 0: Inst 5000000077: At time 4837951442
+IPC-0                 	: 1.033495
+Core 1: Inst 5000000077: At time 4844128266
+IPC-1                 	: 1.032177
+Core 2: Inst 5000000077: At time 4850106986
+IPC-2                 	: 1.030905
+Core 3: Inst 5000000077: At time 4854273407
+IPC-3                 	: 1.030020
+
+TOTAL_IPC             	 : 4.126598
+
+USIMM_CYCLES_R        	 : 19386460101
+USIMM_INST_R            	 : 20000000308
+
+Core 0: Completed 5000000077 : At time : 4854273408
+Core 1: Completed 5000000077 : At time : 4854273408
+Core 2: Completed 5000000077 : At time : 4854273408
+Core 3: Completed 5000000077 : At time : 4854273408
+
+USIMM_CYCLES_END           	 : 4854273408
+USIMM_INST             	 : 20000000308
+USIMM_INST_DOUBLECHECK             	 : 20032215203
+CUMUL_IPC              	 : 4.120081
+
+USIMM_RD_MERGED        	 : 0
+USIMM_WR_MERGED        	 : 51700
+
+USIMM_L3_REPL          	 : 3
+USIMM_L3_PRIVATE       	 : 0
+
+USIMM_ROB_LOG-0       	 : 3585146737
+USIMM_HITRT_LOG-0     	 : 0.000000
+USIMM_OCCUPANCY_LOG-0 	 : 0.000000
+USIMM_MEMRD_LAT-0     	 : 401.190429
+USIMM_MEMWR_LAT-0     	 : 561.077739
+USIMM_MEM_LAT-0       	 : 460.503387
+USIMM_MEMRD_HIT-0     	 : 0.081480
+USIMM_MEMWR_HIT-0     	 : 0.115217
+USIMM_MEM_HIT-0       	 : 0.093996
+USIMM_ROB_LOG-1       	 : 3586679405
+USIMM_HITRT_LOG-1     	 : 0.000000
+USIMM_OCCUPANCY_LOG-1 	 : 0.000000
+USIMM_MEMRD_LAT-1     	 : 378.233953
+USIMM_MEMWR_LAT-1     	 : 560.584242
+USIMM_MEM_LAT-1       	 : 442.407953
+USIMM_MEMRD_HIT-1     	 : 0.009811
+USIMM_MEMWR_HIT-1     	 : 0.011849
+USIMM_MEM_HIT-1       	 : 0.010528
+USIMM_ROB_LOG-2       	 : 3588181789
+USIMM_HITRT_LOG-2     	 : 0.000000
+USIMM_OCCUPANCY_LOG-2 	 : 0.000000
+USIMM_MEMRD_LAT-2     	 : 380.042782
+USIMM_MEMWR_LAT-2     	 : 562.686395
+USIMM_MEM_LAT-2       	 : 444.311361
+USIMM_MEMRD_HIT-2     	 : 0.009861
+USIMM_MEMWR_HIT-2     	 : 0.011848
+USIMM_MEM_HIT-2       	 : 0.010560
+USIMM_ROB_LOG-3       	 : 3589423043
+USIMM_HITRT_LOG-3     	 : 0.000000
+USIMM_OCCUPANCY_LOG-3 	 : 0.000000
+USIMM_MEMRD_LAT-3     	 : 379.862885
+USIMM_MEMWR_LAT-3     	 : 563.121488
+USIMM_MEM_LAT-3       	 : 444.345177
+USIMM_MEMRD_HIT-3     	 : 0.009864
+USIMM_MEMWR_HIT-3     	 : 0.011837
+USIMM_MEM_HIT-3       	 : 0.010558
+
+****** L3 Cache Statistics **
+
+USIMM_L3_DATA_RDHITS	  	 : 1
+USIMM_L3_DATA_RDMISS	  	 : 1
+USIMM_L3_DATA_WRHITS	  	 : 1
+USIMM_L3_DATA_WRMISS	  	 : 1
+USIMM_L3_DATA_D_EVICTS	  	 : 1
+USIMM_L3_DATA_RD_HITRT       	 : 0.500000
+USIMM_L3_DATA_WR_HITRT       	 : 0.500000
+USIMM_L3_DATA_TOT_HITRT       	 : 0.500000
+
+USIMM_L3_CTR_MTREE_RDHITS	  	 : 1
+USIMM_L3_CTR_MTREE_RDMISS	  	 : 1
+USIMM_L3_CTR_MTREE_WRHITS	  	 : 1
+USIMM_L3_CTR_MTREE_WRMISS	  	 : 1
+USIMM_L3_CTR_MTREE_D_EVICTS	  	 : 1
+USIMM_L3_CTR_MTREE_RD_HITRT       	 : 0.500000
+USIMM_L3_CTR_MTREE_WR_HITRT       	 : 0.500000
+USIMM_L3_CTR_MTREE_TOT_HITRT       	 : 0.500000
+
+USIMM_L3_CTR_RDHITS	  	 : 1
+USIMM_L3_CTR_RDMISS	  	 : 1
+USIMM_L3_CTR_WRHITS	  	 : 1
+USIMM_L3_CTR_WRMISS	  	 : 1
+USIMM_L3_CTR_D_EVICTS	  	 : 1
+USIMM_L3_CTR_RD_HITRT       	 : 0.500000
+USIMM_L3_CTR_WR_HITRT       	 : 0.500000
+USIMM_L3_CTR_TOT_HITRT       	 : 0.500000
+
+USIMM_L3_MTREE_RDHITS	  	 : 1
+USIMM_L3_MTREE_RDMISS	  	 : 1
+USIMM_L3_MTREE_WRHITS	  	 : 1
+USIMM_L3_MTREE_WRMISS	  	 : 1
+USIMM_L3_MTREE_D_EVICTS	  	 : 1
+USIMM_L3_MTREE_RD_HITRT       	 : 0.500000
+USIMM_L3_MTREE_WR_HITRT       	 : 0.500000
+USIMM_L3_MTREE_TOT_HITRT       	 : 0.500000
+
+USIMM_L3_MTREE_3_RDHITS	  	 : 1
+USIMM_L3_MTREE_3_RDMISS	  	 : 1
+USIMM_L3_MTREE_3_WRHITS	  	 : 1
+USIMM_L3_MTREE_3_WRMISS	  	 : 1
+USIMM_L3_MTREE_3_D_EVICTS	  	 : 1
+USIMM_L3_MTREE_3_RD_HITRT       	 : 0.500000
+USIMM_L3_MTREE_3_WR_HITRT       	 : 0.500000
+USIMM_L3_MTREE_3_TOT_HITRT       	 : 0.500000
+
+USIMM_L3_MTREE_2_RDHITS	  	 : 1
+USIMM_L3_MTREE_2_RDMISS	  	 : 1
+USIMM_L3_MTREE_2_WRHITS	  	 : 1
+USIMM_L3_MTREE_2_WRMISS	  	 : 1
+USIMM_L3_MTREE_2_D_EVICTS	  	 : 1
+USIMM_L3_MTREE_2_RD_HITRT       	 : 0.500000
+USIMM_L3_MTREE_2_WR_HITRT       	 : 0.500000
+USIMM_L3_MTREE_2_TOT_HITRT       	 : 0.500000
+
+USIMM_L3_MTREE_1_RDHITS	  	 : 1
+USIMM_L3_MTREE_1_RDMISS	  	 : 1
+USIMM_L3_MTREE_1_WRHITS	  	 : 1
+USIMM_L3_MTREE_1_WRMISS	  	 : 1
+USIMM_L3_MTREE_1_D_EVICTS	  	 : 1
+USIMM_L3_MTREE_1_RD_HITRT       	 : 0.500000
+USIMM_L3_MTREE_1_WR_HITRT       	 : 0.500000
+USIMM_L3_MTREE_1_TOT_HITRT       	 : 0.500000
+
+USIMM_L3_MTREE_0_RDHITS	  	 : 1
+USIMM_L3_MTREE_0_RDMISS	  	 : 1
+USIMM_L3_MTREE_0_WRHITS	  	 : 1
+USIMM_L3_MTREE_0_WRMISS	  	 : 1
+USIMM_L3_MTREE_0_D_EVICTS	  	 : 1
+USIMM_L3_MTREE_0_RD_HITRT       	 : 0.500000
+USIMM_L3_MTREE_0_WR_HITRT       	 : 0.500000
+USIMM_L3_MTREE_0_TOT_HITRT       	 : 0.500000
+
+****** MAC Cache Statistics **
+
+USIMM_MAC_RDHITS	  	 : 1
+USIMM_MAC_RDMISS	  	 : 1
+USIMM_MAC_WRHITS	  	 : 1
+USIMM_MAC_WRMISS	  	 : 1
+USIMM_MAC_D_EVICTS	  	 : 1
+USIMM_MAC_RD_HITRT       	 : 0.500000
+USIMM_MAC_WR_HITRT       	 : 0.500000
+USIMM_MAC_TOT_HITRT       	 : 0.500000
+
+****** Counter Cache Total Statistics **
+
+USIMM_MET_CTR_MTREE_RDHITS	  	 : 463126506
+USIMM_MET_CTR_MTREE_RDMISS	  	 : 122819591
+USIMM_MET_CTR_MTREE_WRHITS	  	 : 206193926
+USIMM_MET_CTR_MTREE_WRMISS	  	 : 1
+USIMM_MET_CTR_MTREE_D_EVICTS	  	 : 58447579
+USIMM_MET_CTR_MTREE_RD_HITRT       	 : 0.790401
+USIMM_MET_CTR_MTREE_WR_HITRT       	 : 1.000000
+USIMM_MET_CTR_MTREE_TOT_HITRT       	 : 0.844960
+
+USIMM_MET_CTR_RDHITS	  	 : 358647102
+USIMM_MET_CTR_RDMISS	  	 : 46032171
+USIMM_MET_CTR_WRHITS	  	 : 147746520
+USIMM_MET_CTR_WRMISS	  	 : 1
+USIMM_MET_CTR_D_EVICTS	  	 : 21853845
+USIMM_MET_CTR_RD_HITRT       	 : 0.886258
+USIMM_MET_CTR_WR_HITRT       	 : 1.000000
+USIMM_MET_CTR_TOT_HITRT       	 : 0.916679
+
+USIMM_MET_MTREE_RDHITS	  	 : 104479405
+USIMM_MET_MTREE_RDMISS	  	 : 76787421
+USIMM_MET_MTREE_WRHITS	  	 : 58447407
+USIMM_MET_MTREE_WRMISS	  	 : 1
+USIMM_MET_MTREE_D_EVICTS	  	 : 36593735
+USIMM_MET_MTREE_RD_HITRT       	 : 0.576386
+USIMM_MET_MTREE_WR_HITRT       	 : 1.000000
+USIMM_MET_MTREE_TOT_HITRT       	 : 0.679672
+
+USIMM_MET_MTREE_3_RDHITS	  	 : 15812463
+USIMM_MET_MTREE_3_RDMISS	  	 : 54241170
+USIMM_MET_MTREE_3_WRHITS	  	 : 24021462
+USIMM_MET_MTREE_3_WRMISS	  	 : 1
+USIMM_MET_MTREE_3_D_EVICTS	  	 : 25978852
+USIMM_MET_MTREE_3_RD_HITRT       	 : 0.225720
+USIMM_MET_MTREE_3_WR_HITRT       	 : 1.000000
+USIMM_MET_MTREE_3_TOT_HITRT       	 : 0.423428
+
+USIMM_MET_MTREE_2_RDHITS	  	 : 54125723
+USIMM_MET_MTREE_2_RDMISS	  	 : 22546080
+USIMM_MET_MTREE_2_WRHITS	  	 : 22430633
+USIMM_MET_MTREE_2_WRMISS	  	 : 1
+USIMM_MET_MTREE_2_D_EVICTS	  	 : 10614809
+USIMM_MET_MTREE_2_RD_HITRT       	 : 0.705942
+USIMM_MET_MTREE_2_WR_HITRT       	 : 1.000000
+USIMM_MET_MTREE_2_TOT_HITRT       	 : 0.772499
+
+USIMM_MET_MTREE_1_RDHITS	  	 : 34541221
+USIMM_MET_MTREE_1_RDMISS	  	 : 173
+USIMM_MET_MTREE_1_WRHITS	  	 : 11995314
+USIMM_MET_MTREE_1_WRMISS	  	 : 1
+USIMM_MET_MTREE_1_D_EVICTS	  	 : 76
+USIMM_MET_MTREE_1_RD_HITRT       	 : 0.999995
+USIMM_MET_MTREE_1_WR_HITRT       	 : 1.000000
+USIMM_MET_MTREE_1_TOT_HITRT       	 : 0.999996
+
+USIMM_MET_MTREE_0_RDHITS	  	 : 1
+USIMM_MET_MTREE_0_RDMISS	  	 : 1
+USIMM_MET_MTREE_0_WRHITS	  	 : 1
+USIMM_MET_MTREE_0_WRMISS	  	 : 1
+USIMM_MET_MTREE_0_D_EVICTS	  	 : 1
+USIMM_MET_MTREE_0_RD_HITRT       	 : 0.500000
+USIMM_MET_MTREE_0_WR_HITRT       	 : 0.500000
+USIMM_MET_MTREE_0_TOT_HITRT       	 : 0.500000
+
+****** Memory Traffic PKI Statistics **
+
+
+****MEM TRAFFIC STATS ********
+USIMM_NEW_DATA_MPKI   	 : 20.201424
+USIMM_NEW_MAC_MPKI   	 : 0.000000
+USIMM_NEW_CTR_MPKI   	 : 3.497049
+USIMM_NEW_MTREE_MPKI   	 : 5.551734
+USIMM_NEW_TWIN_MPKI   	 : 1.037712
+
+************DETAILED ***********
+USIMM_NEW_DATA_RMPKI   	 : 12.825978
+USIMM_NEW_DATA_WMPKI   	 : 7.375446
+USIMM_NEW_MAC_RMPKI   	 : 0.000000
+USIMM_NEW_MAC_WMPKI   	 : 0.000000
+USIMM_NEW_CTR_RMPKI   	 : 2.297907
+USIMM_NEW_CTR_WMPKI   	 : 1.199142
+USIMM_NEW_MTREE_RMPKI   	 : 3.833197
+USIMM_NEW_MTREE_WMPKI   	 : 1.718538
+USIMM_NEW_MTREE_0_RMPKI   	 : 0.000000
+USIMM_NEW_MTREE_0_WMPKI   	 : 0.000000
+USIMM_NEW_MTREE_1_RMPKI   	 : 0.000009
+USIMM_NEW_MTREE_1_WMPKI   	 : 0.000009
+USIMM_NEW_MTREE_2_RMPKI   	 : 1.125491
+USIMM_NEW_MTREE_2_WMPKI   	 : 0.598801
+USIMM_NEW_MTREE_3_RMPKI   	 : 2.707697
+USIMM_NEW_MTREE_3_WMPKI   	 : 1.119728
+USIMM_UPDATED_MTREE_MPKI_3   	 : 0.000000
+USIMM_UPDATED_MTREE_MPKI_2   	 : 0.000017
+USIMM_UPDATED_MTREE_MPKI_1   	 : 1.724292
+USIMM_UPDATED_MTREE_MPKI_0   	 : 3.827425
+
+*** ENDS ***
+****** Ctr Overflow Statistics **
+
+NUM_READS_DATA            	: 513865504
+NUM_WRITES_DATA            	: 295493038
+NUM_READS_CTR            	: 92064340
+NUM_WRITES_CTR            	: 48042922
+
+NUM_CTR_INCREMENTS_CTR           	: 147746519
+NUM_OVERFLOWS_CTR           	: 11082
+WRITE_TOLERANCE_CTR           	: 13332.116856
+
+NUM_CTR_INCREMENTS_MTREE_3      	: 24021461
+NUM_OVERFLOWS_MTREE_3           	: 120968
+WRITE_TOLERANCE_MTREE_3           	: 198.576987
+
+NUM_CTR_INCREMENTS_MTREE_2      	: 22430632
+NUM_OVERFLOWS_MTREE_2           	: 27326
+WRITE_TOLERANCE_MTREE_2           	: 820.853107
+
+NUM_CTR_INCREMENTS_MTREE_1      	: 11995313
+NUM_OVERFLOWS_MTREE_1           	: 4692
+WRITE_TOLERANCE_MTREE_1           	: 2556.545823
+
+NUM_CTR_INCREMENTS_MTREE_0      	: 0
+NUM_OVERFLOWS_MTREE_0           	: 0
+WRITE_TOLERANCE_MTREE_0           	: -nan
+
+NUM_CTR_INCREMENTS_MTREE      	: 58447406
+NUM_OVERFLOWS_MTREE           	: 152986
+WRITE_TOLERANCE_MTREE          	: 382.044148
+
+**************
+NUM_CTR_INCREMENTS_TOTAL      	: 206193925
+NUM_OVERFLOWS_TOTAL           	: 164068
+WRITE_TOLERANCE_TOTAL         	: 1256.758935
+
+
+*** MAJOR_CTR_GROWTH STATS***
+MAX_MAJ_CTR_FINLEVEL_0         	: 47
+MAX_MAJ_CTR_FINLEVEL_1         	: 198
+MAX_MAJ_CTR_FINLEVEL_2         	: 284
+MAX_MAJ_CTR_FINLEVEL_3         	: 2178
+MAX_MAJ_CTR_FINLEVEL_4         	: 0
+MAX_MAJ_CTR_OVERALL         	: 2178
+
+*** NONZERO_DYNRANGE STATS***
+AVG_NONZERO_CTR_FINLEVEL_0         	: 63.82
+AVG_NONZERO_PERC_CTR_FINLEVEL_0    	: 99.72
+AVG_DYNRANGE_CTR_FINLEVEL_0         	: 0.00
+AVG_DYNRANGE_PERC_CTR_FINLEVEL_0    	: 0.00
+AVG_No0_DYNRANGE_CTR_FINLEVEL_0         	: 1.00
+AVG_No0_DYNRANGE_PERC_CTR_FINLEVEL_0    	: 99.60
+
+AVG_NONZERO_CTR_FINLEVEL_1         	: 13.00
+AVG_NONZERO_PERC_CTR_FINLEVEL_1    	: 20.31
+AVG_DYNRANGE_CTR_FINLEVEL_1         	: 0.00
+AVG_DYNRANGE_PERC_CTR_FINLEVEL_1    	: 0.00
+AVG_No0_DYNRANGE_CTR_FINLEVEL_1         	: 0.00
+AVG_No0_DYNRANGE_PERC_CTR_FINLEVEL_1    	: 0.00
+
+AVG_NONZERO_CTR_FINLEVEL_2         	: 45.14
+AVG_NONZERO_PERC_CTR_FINLEVEL_2    	: 70.54
+AVG_DYNRANGE_CTR_FINLEVEL_2         	: 0.00
+AVG_DYNRANGE_PERC_CTR_FINLEVEL_2    	: 0.00
+AVG_No0_DYNRANGE_CTR_FINLEVEL_2         	: 0.07
+AVG_No0_DYNRANGE_PERC_CTR_FINLEVEL_2    	: 6.79
+
+AVG_NONZERO_CTR_FINLEVEL_3         	: 62.71
+AVG_NONZERO_PERC_CTR_FINLEVEL_3    	: 97.99
+AVG_DYNRANGE_CTR_FINLEVEL_3         	: 0.00
+AVG_DYNRANGE_PERC_CTR_FINLEVEL_3    	: 0.00
+AVG_No0_DYNRANGE_CTR_FINLEVEL_3         	: 0.91
+AVG_No0_DYNRANGE_PERC_CTR_FINLEVEL_3    	: 90.60
+
+AVG_NONZERO_CTR_FINLEVEL_4         	: -nan
+AVG_NONZERO_PERC_CTR_FINLEVEL_4    	: -nan
+AVG_DYNRANGE_CTR_FINLEVEL_4         	: -nan
+AVG_DYNRANGE_PERC_CTR_FINLEVEL_4    	: -nan
+AVG_No0_DYNRANGE_CTR_FINLEVEL_4         	: -nan
+AVG_No0_DYNRANGE_PERC_CTR_FINLEVEL_4    	: -nan
+
+AVG_NONZERO_PERC_CTR_OVERALL    	: 36.26
+AVG_DYNRANGE_PERC_CTR_OVERALL    	: 0.00
+
+AVG_No0_DYNRANGE_PERC_CTR_OVERALL    	: 10.45
+
+*** CTR_OVERFLOWS_NEWFINAL STATS***
+CUMU_OVERFLOWS_CTR_FINLEVEL_0         	: 11082
+CUMU_CHILDACCESES_CTR_FINLEVEL_0         	: 1418496
+
+CUMU_OVERFLOWS_CTR_FINLEVEL_1         	: 120968
+CUMU_CHILDACCESES_CTR_FINLEVEL_1         	: 15482710
+
+CUMU_OVERFLOWS_CTR_FINLEVEL_2         	: 27326
+CUMU_CHILDACCESES_CTR_FINLEVEL_2         	: 3473498
+
+CUMU_OVERFLOWS_CTR_FINLEVEL_3         	: 4692
+CUMU_CHILDACCESES_CTR_FINLEVEL_3         	: 412958
+
+CUMU_OVERFLOWS_CTR_FINLEVEL_4         	: 0
+CUMU_CHILDACCESES_CTR_FINLEVEL_4         	: 0
+
+CUMU_OVERFLOWS_CTR_OVERALL         	: 164068
+CUMU_CHILDACCESES_CTR_OVERALL      	: 20787662
+
+CUMU_OVERFLOWS_PER_BNINST_CTR_FINLEVEL_0         	: 554.100
+CUMU_CHILD_ACCESSES_PER_BNINST_CTR_FINLEVEL_0         	: 70924.799
+CUMU_OVERFLOWS_PER_BNINST_CTR_FINLEVEL_1         	: 6048.400
+CUMU_CHILD_ACCESSES_PER_BNINST_CTR_FINLEVEL_1         	: 774135.488
+CUMU_OVERFLOWS_PER_BNINST_CTR_FINLEVEL_2         	: 1366.300
+CUMU_CHILD_ACCESSES_PER_BNINST_CTR_FINLEVEL_2         	: 173674.897
+CUMU_OVERFLOWS_PER_BNINST_CTR_FINLEVEL_3         	: 234.600
+CUMU_CHILD_ACCESSES_PER_BNINST_CTR_FINLEVEL_3         	: 20647.900
+CUMU_OVERFLOWS_PER_BNINST_CTR_FINLEVEL_4         	: 0.000
+CUMU_CHILD_ACCESSES_PER_BNINST_CTR_FINLEVEL_4         	: 0.000
+CUMU_OVERFLOWS_PER_BNINST_CTR_OVERALL         	: 8203.400
+CUMU_CHILDACCESES_PER_BININST_CTR_OVERALL      	: 1039383.084
+
+CUMU_OVERFLOWS_PER_MN_DATMEMACCESS_CTR_OVERALL         	: 410.170
+CUMU_OVERFLOWS_PER_MN_TOTMEMACCESS_CTR_OVERALL         	: 282.876
+
+*** ENDS ***
+USIMM_MEMRD_LAT_TOTAL 	 : 385.262276
+USIMM_MEMWR_LAT_TOTAL 	 : 561.828669
+USIMM_MEM_LAT_TOTAL   	 : 448.322776
+USIMM_MEMRD_HIT_TOTAL 	 : 0.029166
+USIMM_MEMWR_HIT_TOTAL 	 : 0.041441
+USIMM_MEM_HIT_TOTAL   	 : 0.033550
+
+USIMM_MEMRD_LAT_CH0     	 : 73.105913
+USIMM_MEMWR_LAT_CH0     	 : 125.182599
+USIMM_MEM_LAT_CH0       	 : 91.704145
+USIMM_MEMRD_HIT_CH0     	 : 0.028848
+USIMM_MEMWR_HIT_CH0     	 : 0.043578
+USIMM_MEM_HIT_CH0       	 : 0.034108
+USIMM_MEMRD_LAT_CH1     	 : 697.383908
+USIMM_MEMWR_LAT_CH1     	 : 998.360336
+USIMM_MEM_LAT_CH1       	 : 804.882530
+USIMM_MEMRD_HIT_CH1     	 : 0.029485
+USIMM_MEMWR_HIT_CH1     	 : 0.039305
+USIMM_MEM_HIT_CH1       	 : 0.032992
+-------- Channel 0 Stats-----------
+Total Reads Serviced :          195008973
+Total Writes Serviced :         108333022
+Average Read Latency :          73.10591
+Average Read Queue Latency :    6.15519
+Average Write Latency :         125.18260
+Average Write Queue Latency :   37.11609
+Read Page Hit Rate :            -1.47362
+Write Page Hit Rate :           0.04358
+------------------------------------
+-------- Channel 1 Stats-----------
+Total Reads Serviced :          195030672
+Total Writes Serviced :         108361413
+Average Read Latency :          697.38391
+Average Read Queue Latency :    162.13717
+Average Write Latency :         998.36034
+Average Write Queue Latency :   136.32783
+Read Page Hit Rate :            -1.47480
+Write Page Hit Rate :           0.03930
+------------------------------------
+
+#-----------------------------Simulated Cycles Break-Up-------------------------------------------
+Note:  1.(Read Cycles + Write Cycles + Read Other + Write Other) should add up to % cycles during which
+          the channel is busy. This should be the same for all Ranks on a Channel
+       2.(PRE_PDN_FAST + PRE_PDN_SLOW + ACT_PDN + ACT_STBY + PRE_STBY) should add up to 100%
+       3.Power Down means Clock Enable, CKE = 0. In Standby mode, CKE = 1
+#-------------------------------------------------------------------------------------------------
+Total Simulation Cycles                       4854273408
+---------------------------------------------------------------
+
+USIMM_C0_R0_RDCYC           	:      0.32
+USIMM_C0_R0_WRCYC           	:      0.18
+USIMM_C0_R0_RDOTHCYC        	:      0.32
+USIMM_C0_R0_WROTHCYC        	:      0.18
+USIMM_C0_R0_PRE_PDN_FASTCYC 	:      0.00
+USIMM_C0_R0_PRE_PDN_SLOWCYC 	:      0.00
+USIMM_C0_R0_ACT_PDNCYC      	:      0.00
+USIMM_C0_R0_ACT_STBYCYC     	:      0.00
+USIMM_C0_R0_PRE_STBYCYC     	:      1.00
+---------------------------------------------------------------
+
+USIMM_C0_R1_RDCYC           	:      0.32
+USIMM_C0_R1_WRCYC           	:      0.18
+USIMM_C0_R1_RDOTHCYC        	:      0.32
+USIMM_C0_R1_WROTHCYC        	:      0.18
+USIMM_C0_R1_PRE_PDN_FASTCYC 	:      0.00
+USIMM_C0_R1_PRE_PDN_SLOWCYC 	:      0.00
+USIMM_C0_R1_ACT_PDNCYC      	:      0.00
+USIMM_C0_R1_ACT_STBYCYC     	:      0.00
+USIMM_C0_R1_PRE_STBYCYC     	:      1.00
+---------------------------------------------------------------
+
+USIMM_C1_R0_RDCYC           	:      0.32
+USIMM_C1_R0_WRCYC           	:      0.18
+USIMM_C1_R0_RDOTHCYC        	:      0.32
+USIMM_C1_R0_WROTHCYC        	:      0.18
+USIMM_C1_R0_PRE_PDN_FASTCYC 	:      0.00
+USIMM_C1_R0_PRE_PDN_SLOWCYC 	:      0.00
+USIMM_C1_R0_ACT_PDNCYC      	:      0.00
+USIMM_C1_R0_ACT_STBYCYC     	:      0.00
+USIMM_C1_R0_PRE_STBYCYC     	:      1.00
+---------------------------------------------------------------
+
+USIMM_C1_R1_RDCYC           	:      0.32
+USIMM_C1_R1_WRCYC           	:      0.18
+USIMM_C1_R1_RDOTHCYC        	:      0.32
+USIMM_C1_R1_WROTHCYC        	:      0.18
+USIMM_C1_R1_PRE_PDN_FASTCYC 	:      0.00
+USIMM_C1_R1_PRE_PDN_SLOWCYC 	:      0.00
+USIMM_C1_R1_ACT_PDNCYC      	:      0.00
+USIMM_C1_R1_ACT_STBYCYC     	:      0.00
+USIMM_C1_R1_PRE_STBYCYC     	:      1.00
+---------------------------------------------------------------
+
+USIMM_TOTAL_RDCYC           	:      1.29
+USIMM_TOTAL_WRCYC           	:      0.71
+USIMM_TOTAL_RDOTHCYC        	:      1.29
+USIMM_TOTAL_WROTHCYC        	:      0.71
+USIMM_TOTAL_PRE_PDN_FASTCYC 	:      0.00
+USIMM_TOTAL_PRE_PDN_SLOWCYC 	:      0.00
+USIMM_TOTAL_ACT_PDNCYC      	:      0.00
+USIMM_TOTAL_ACT_STBYCYC     	:      0.00
+USIMM_TOTAL_PRE_STBYCYC     	:      4.00
+---------------------------------------------------------------
+
+
+#-------------------------------------- Power Stats ----------------------------------------------
+Note:  1. termRoth/termWoth is the power dissipated in the ODT resistors when Read/Writes terminate 
+          in other ranks on the same channel
+#-------------------------------------------------------------------------------------------------
+
+USIMM_C0_R0_BCKmW        	:     42.00
+USIMM_C0_R0_ACTmW        	:    139.88
+USIMM_C0_R0_RDmW         	:     57.31
+USIMM_C0_R0_WRmW         	:     24.08
+USIMM_C0_R0_RD_TERMmW    	:     10.27
+USIMM_C0_R0_WR_TERMmW    	:      0.00
+USIMM_C0_R0_RDOTH_TERMmW 	:     80.10
+USIMM_C0_R0_WROTH_TERMmW 	:     40.89
+USIMM_C0_R0_REFmW        	:      5.85
+---------------------------------------------------------------
+USIMM_C0_R0_TOT_RK_PWRmW 	:   3603.49
+---------------------------------------------------------------
+
+USIMM_C0_R1_BCKmW        	:     42.00
+USIMM_C0_R1_ACTmW        	:    140.06
+USIMM_C0_R1_RDmW         	:     57.42
+USIMM_C0_R1_WRmW         	:     24.13
+USIMM_C0_R1_RD_TERMmW    	:     10.29
+USIMM_C0_R1_WR_TERMmW    	:      0.00
+USIMM_C0_R1_RDOTH_TERMmW 	:     79.95
+USIMM_C0_R1_WROTH_TERMmW 	:     40.81
+USIMM_C0_R1_REFmW        	:      5.85
+---------------------------------------------------------------
+USIMM_C0_R1_TOT_RK_PWRmW 	:   3604.55
+---------------------------------------------------------------
+
+USIMM_C1_R0_BCKmW        	:     42.00
+USIMM_C1_R0_ACTmW        	:    140.05
+USIMM_C1_R0_RDmW         	:     57.32
+USIMM_C1_R0_WRmW         	:     24.08
+USIMM_C1_R0_RD_TERMmW    	:     10.28
+USIMM_C1_R0_WR_TERMmW    	:      0.00
+USIMM_C1_R0_RDOTH_TERMmW 	:     80.11
+USIMM_C1_R0_WROTH_TERMmW 	:     40.91
+USIMM_C1_R0_REFmW        	:      5.85
+---------------------------------------------------------------
+USIMM_C1_R0_TOT_RK_PWRmW 	:   3605.29
+---------------------------------------------------------------
+
+USIMM_C1_R1_BCKmW        	:     42.00
+USIMM_C1_R1_ACTmW        	:    140.26
+USIMM_C1_R1_RDmW         	:     57.43
+USIMM_C1_R1_WRmW         	:     24.14
+USIMM_C1_R1_RD_TERMmW    	:     10.30
+USIMM_C1_R1_WR_TERMmW    	:      0.00
+USIMM_C1_R1_RDOTH_TERMmW 	:     79.95
+USIMM_C1_R1_WROTH_TERMmW 	:     40.81
+USIMM_C1_R1_REFmW        	:      5.85
+---------------------------------------------------------------
+USIMM_C1_R1_TOT_RK_PWRmW 	:   3606.68
+---------------------------------------------------------------
+
+USIMM_TOTAL_BCKmW        	:    168.00
+USIMM_TOTAL_ACTmW        	:    560.25
+USIMM_TOTAL_RDmW         	:    229.48
+USIMM_TOTAL_WRmW         	:     96.42
+USIMM_TOTAL_RD_TERMmW    	:     41.14
+USIMM_TOTAL_WR_TERMmW    	:      0.00
+USIMM_TOTAL_RDOTH_TERMmW 	:    320.11
+USIMM_TOTAL_WROTH_TERMmW 	:    163.42
+USIMM_TOTAL_REFmW        	:     23.40
+---------------------------------------------------------------
+USIMM_TOTAL_PWRmW        	:  14420.02
+---------------------------------------------------------------
+
+USIMM_MEM_POWER_W         	: 14.420020
+USIMM_OTHER_POWER_W       	: 20.000000
+USIMM_CORE_W              	: 39.936893
+USIMM_SYS_POWER_W         	: 64.356911
+USIMM_EDP_Js              	: 148.096115112
+
+
+
+OS_PAGE_MISS       	 : 3157504
+OS_PAGE_EVICTS     	 : 0
+OS_FOOTPRINT       	 : 12334
